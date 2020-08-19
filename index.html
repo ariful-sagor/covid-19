@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2><u>Covid-19 Updates</u></h2>
+    <br /><br />
+    <div class="result">
+      <h2 id="country">
+        World Wide
+      </h2>
+      <div id="results">Time</div>
+      <div id="card">
+        <div class="col-md-4 cards">
+          <h3 id="cases">Total Cases</h3>
+          <p id="caseNumber"></p>
+        </div>
+        <div class="col-md-4 cards">
+          <h3 id="recover">Total Recovered</h3>
+          <p id="recoverNumber"></p>
+        </div>
+        <div class="col-md-4 cards">
+          <h3 id="death">Total Death</h3>
+          <p id="deathNumber"></p>
+        </div>
+      </div>
+    </div>
+    <div class="searchArea">
+      <h2>Enter Country Name</h2>
+      <input type="text" id="search" placeholder="Example: Bangladesh" />
+      <div class="button">
+        <button>Search</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
