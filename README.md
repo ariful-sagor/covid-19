@@ -10,3 +10,4 @@ Used tools:
 - API
 - CSS
 - Bootstrap
+- JSON
